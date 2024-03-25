@@ -1,38 +1,17 @@
-.App {
-  text-align: center;
+.App{padding: 10px 50px; box-sizing: border-box;}
+.App h1{text-align: center;}
+.App .movie{
+    display: flex;
+    align-items: center;
+    border: 2px solid hotpink;
+    padding: 7px;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.App .movie-title{flex-grow: 1;}
+.App .movie-year{font-size: 0.6rem; color: hotpink;}
+.App input{width: 100%; border: 1px solid #ddd; padding: 7px; margin-bottom: 5px; box-sizing: border-box;}
+.App button{width: 100%; border: none; padding: 7px; margin-bottom: 5px; box-sizing: border-box; background: pink; color: #fff;}
+.App .removeBtn button{border: none; padding: 7px; margin-bottom: 0; box-sizing: border-box; background: pink; color: #fff;}
+.errText{color: pink; font-size: 12px; margin-bottom: 5px;}
+.addText{color: gray; font-size: 14px;}
